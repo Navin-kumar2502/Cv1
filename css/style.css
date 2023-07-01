@@ -1,0 +1,140 @@
+/*text allign works in the body for all tags if they have no wodth assigned to do that we have to take help of margin*/
+body{
+  margin:0;
+  text-align: center;
+  font-size: 100%;
+}
+h1{
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;  /* 16px=100%=1em 90px=562.5%=5.625em */
+  line-height: 2;
+}
+.top-container{
+  background-color: #E4F9F5;
+  padding-top: 200px;
+}
+h2{
+  color:#11999E;
+}
+h3{
+  color:#11999E;
+}
+.middle-container{
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.paragraph{
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+.bottom-container{
+  background-color: #E4F9F5;
+  padding: 50px;
+}
+.btn {
+  background-color:#11999E;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  border-radius: 10px;
+}
+.footer-link{
+  color: #11999E;
+  margin:0 20px 0 20px;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.cloud1{
+  position: absolute;
+  top: 230px;
+  right:300px
+}
+.cloud2{
+  position: absolute;
+  top:550px;
+  left:300px;
+}
+.skill-row{
+  width:40%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+.code-picture{
+  width:25%;
+  float: left;
+  margin-right: 20px;
+}
+.chillies{
+  width: 25%;
+  float: right;
+  margin-right: 20px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+  margin-bottom: 80px;
+}
+.hello{
+  font-size: 4rem;
+}
+.my{
+  font-size: 3rem;
+}
+.profile{
+  width:40%;
+  margin:100px auto 100px auto;
+  text-align: center;
+}
+.header{
+  margin:0 ;
+  padding-left: 400px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  position:fixed;
+  background-color:#94d2bd;
+}
+.pic{
+  float: left;
+}
+.h{
+  color: #11999E;
+  position: absolute;
+  top: 35px;
+  left: 1300px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.me{
+  color: #11999E;
+  position: absolute;
+  top: 35px;
+  left: 1400px;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+}
+.c{
+  color: #11999E;
+  position: absolute;
+  top: 35px;
+  left: 1550px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
